@@ -6,6 +6,8 @@
 
 ### Bu repo Airties Cloud: AWS & DevOps Bootcamp'inin bitirme ödevi için hazırlanmıştır.
 
+![Network Diagram](https://i.ibb.co/nMkRRgb/bootcamp-project-structure.png)
+
 ## Features
 
 Repo, Common Stack olan Public Subnet, Private Subnet ve Nat Gateway içeren stack'i ve AWS ECS Fargate Stackinin içermektedir.
@@ -16,7 +18,7 @@ Stackler CDK yardımıyla yaratılmıştır.
 1 adet NAT Gateway içeren VPC Network'ünü içermektedir.
 
 ### AWS ECS Fargate Stack
-Bu stack, nir adet Express.js backend API'ı içeren konteynırın barındığı ECR Stack'i.
+Bu stack, bir adet Express.js backend API'ı içeren konteynırın barındığı ECR Stack'i.
 80 ve 443 portlarına security groupunda inbound rule olarak sahip bir ECS Cluster Stack'i.
 SSM'den parametre okuyabilme yetkisine sahip, 1 CPU ve max 2 GB Ram kullanan 8080 portunda çalışan bir fargate servisine sahip.
 Fargate servisi SSM'den DB_PASSWORD, JWT Secret ve DB_URL parametrelerini okumakta.
