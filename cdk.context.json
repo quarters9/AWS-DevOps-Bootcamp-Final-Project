@@ -1,0 +1,10 @@
+{
+  "infra": {
+    "env": "dev",
+    "account": "79895558****",
+    "region": "eu-central-1",
+    "vpcId": "vpc-07b9033cc0f******",
+    "availabilityZones": ["eu-central-1a", "eu-central-1b"],
+    "publicSubnetIds": ["subnet-003455396f0******", "subnet-0897ac4bfa5******"]
+  }
+}
